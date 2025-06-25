@@ -1,12 +1,47 @@
-# React + Vite
+# G2 Living
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Sitio inmobiliario de lujo para Medellín y Antioquia, desarrollado con React + Vite.
 
-Currently, two official plugins are available:
+## Características principales
+- Landing premium y 100% responsive
+- Panel de administración con CRUD real de propiedades (agregar, editar, eliminar, drag & drop de imágenes, vistas cuadrilla/tabla, persistencia local)
+- Blog visual de ejemplo en el panel (sin lógica real)
+- Testimonios, Sobre Nosotros, Footer y Navbar premium
+- Integración de mapas y galería de imágenes
+- Soporte multilenguaje (i18n)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Instalación local
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/jjaracanales/g2-living.git
+   cd g2-living
+   ```
+2. Instala dependencias:
+   ```bash
+   npm install --legacy-peer-deps
+   ```
+3. Inicia el entorno de desarrollo:
+   ```bash
+   npm run dev
+   ```
 
-## Expanding the ESLint configuration
+## Deploy en Vercel
+- El proyecto está listo para deploy automático en Vercel.
+- Si usas React 19, asegúrate de que el comando de instalación en Vercel sea:
+  ```
+  npm install --legacy-peer-deps
+  ```
+- Para rutas internas (SPA), el archivo `vercel.json` debe contener:
+  ```json
+  {
+    "rewrites": [
+      { "source": "/(.*)", "destination": "/" }
+    ]
+  }
+  ```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Licencia
+MIT
+
+---
+Desarrollado por Plutonia.
