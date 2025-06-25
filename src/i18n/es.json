@@ -1,0 +1,34 @@
+{
+  "navbar": {
+    "home": "Inicio",
+    "properties": "Propiedades",
+    "about": "Sobre Nosotros",
+    "testimonials": "Testimonios",
+    "blog": "Blog",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "Vive el lujo y la exclusividad en Medellín",
+    "subtitle": "Casas campestres y apartamentos premium para quienes buscan lo mejor. Descubre propiedades únicas con G2 Living.",
+    "cta": "Ver propiedades"
+  },
+  "featured": {
+    "title": "Propiedades destacadas"
+  },
+  "testimonials": {
+    "title": "Testimonios"
+  },
+  "contact": {
+    "title": "Contáctanos",
+    "name": "Nombre completo",
+    "email": "Correo electrónico",
+    "message": "¿En qué podemos ayudarte?",
+    "send": "Enviar",
+    "sending": "Enviando...",
+    "success": "¡Mensaje enviado! Pronto te contactaremos.",
+    "error": "Por favor completa todos los campos."
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados."
+  }
+}

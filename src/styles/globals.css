@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@400;600;700&family=DM+Serif+Display:ital,wght@0,400;1,400&display=swap');
+
+:root {
+  --font-primary: 'DM Serif Display', serif;
+  --font-secondary: 'Be Vietnam', sans-serif;
+  --color-primary: #000000;
+  --color-secondary: #4f4034;
+  --color-bg: #fafbfc;
+  --color-bg-alt: #f5f6f8;
+  --color-text: #000000;
+  --color-accent: #4f4034;
+  --radius: 18px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-secondary);
+  background: var(--color-bg);
+  color: var(--color-text);
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-primary);
+  font-weight: 400;
+  color: var(--color-primary);
+  margin-top: 0;
+}
+
+a {
+  color: var(--color-secondary);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: var(--color-primary);
+}
+
+button {
+  font-family: var(--font-secondary);
+  background: var(--color-secondary);
+  color: #fff;
+  border: none;
+  border-radius: 24px;
+  padding: 0.8rem 2rem;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button:hover, button:focus {
+  background: var(--color-primary);
+  color: #fff;
+}
+
+input, textarea {
+  font-family: var(--font-secondary);
+  font-size: 1rem;
+}
+
+/* Responsive helpers */
+@media (max-width: 700px) {
+  h1 { font-size: 1.5rem; }
+  h2 { font-size: 1.2rem; }
+  .card, .property-card { padding: 1rem; }
+}

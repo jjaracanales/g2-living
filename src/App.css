@@ -1,0 +1,35 @@
+/* Estilos premium y responsive para cards y formularios de propiedades */
+@media (max-width: 700px) {
+  .admin-prop-form {
+    flex-direction: column !important;
+    gap: 10px !important;
+    padding: 1rem 0.5rem !important;
+  }
+  .admin-prop-grid {
+    grid-template-columns: 1fr !important;
+    gap: 14px !important;
+  }
+  .admin-prop-modal {
+    flex-direction: column !important;
+    min-width: 98vw !important;
+    max-width: 99vw !important;
+    padding: 1.2rem 0.5rem !important;
+    gap: 12px !important;
+  }
+  .admin-prop-modal .modal-photos {
+    flex-direction: row !important;
+    min-width: 0 !important;
+    max-width: 100vw !important;
+    border-right: none !important;
+    border-bottom: 1.5px solid #e7dacb !important;
+    padding-right: 0 !important;
+    padding-bottom: 12px !important;
+    gap: 8px !important;
+    overflow-x: auto;
+  }
+  .admin-prop-modal .modal-photos > div, .admin-prop-modal .modal-photos > label {
+    min-width: 90px !important;
+    max-width: 110px !important;
+    height: 80px !important;
+  }
+}

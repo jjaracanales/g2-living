@@ -1,0 +1,34 @@
+{
+  "navbar": {
+    "home": "Home",
+    "properties": "Properties",
+    "about": "About Us",
+    "testimonials": "Testimonials",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Live luxury and exclusivity in Medellín",
+    "subtitle": "Country houses and premium apartments for those who seek the best. Discover unique properties with G2 Living.",
+    "cta": "See properties"
+  },
+  "featured": {
+    "title": "Featured Properties"
+  },
+  "testimonials": {
+    "title": "Testimonials"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "name": "Full name",
+    "email": "Email address",
+    "message": "How can we help you?",
+    "send": "Send",
+    "sending": "Sending...",
+    "success": "Message sent! We will contact you soon.",
+    "error": "Please complete all fields."
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  }
+}
